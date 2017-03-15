@@ -1,0 +1,43 @@
+<?php
+/**
+ * Contao Open Source CMS
+ *
+ * Copyright (c) 2015 centerscreen GmbH
+ *
+ * @package   MobileCenter
+ * @author    Kirsten Roschanski <kirsten@kirsten-roschanski.de>
+ * @license   LGPL
+ * @copyright 2015
+ */
+
+$GLOBALS['TL_LANG']['MSC']['D'] = 'Gebrauchtwagen differenzbesteuert';
+$GLOBALS['TL_LANG']['MSC']['G'] = 'Gebrauchtwagen Steuer ausweisbar';
+$GLOBALS['TL_LANG']['MSC']['V'] = 'Vorführwagen';
+$GLOBALS['TL_LANG']['MSC']['N'] = 'Neuwagen';
+
+
+
+$GLOBALS['TL_LANG']['MSC']['search'] = 'suchen';
+$GLOBALS['TL_LANG']['MSC']['emptyVehicleList'] = 'Keine Fahrzeuge gefunden!';
+$GLOBALS['TL_LANG']['MSC']['invalidPage'] = 'Kein passendes Fahrzeug für "%s" gefunden!';
+
+
+$GLOBALS['TL_LANG']['vehicle_typenumber']['G']  = 'Gebrauchtwagen';
+$GLOBALS['TL_LANG']['vehicle_typenumber']['N']  = 'Neuwagen';
+$GLOBALS['TL_LANG']['vehicle_typenumber']['V']  = 'Vorführwagen';
+
+$GLOBALS['TL_LANG']['vehicle_tax'][19]  = 'MwSt. ausweisbar';
+
+$GLOBALS['TL_LANG']['vehicle_filter']['milage'][25000]  = 'bis 25.000';
+$GLOBALS['TL_LANG']['vehicle_filter']['milage'][50000]  = 'bis 50.000';
+$GLOBALS['TL_LANG']['vehicle_filter']['milage'][75000]  = 'bis 75.000';
+$GLOBALS['TL_LANG']['vehicle_filter']['milage'][100000] = 'bis 100.000';
+$GLOBALS['TL_LANG']['vehicle_filter']['milage'][150000] = 'bis 150.000';
+
+$GLOBALS['TL_LANG']['vehicle_filter']['price'][5000]  = 'bis 5.000 EUR';
+$GLOBALS['TL_LANG']['vehicle_filter']['price'][10000] = 'bis 10.000 EUR';
+$GLOBALS['TL_LANG']['vehicle_filter']['price'][15000] = 'bis 15.000 EUR';
+$GLOBALS['TL_LANG']['vehicle_filter']['price'][20000] = 'bis 20.000 EUR';
+$GLOBALS['TL_LANG']['vehicle_filter']['price'][30000] = 'bis 30.000 EUR';
+$GLOBALS['TL_LANG']['vehicle_filter']['price'][40000] = 'bis 40.000 EUR';
+$GLOBALS['TL_LANG']['vehicle_filter']['price'][50000] = 'bis 50.000 EUR';

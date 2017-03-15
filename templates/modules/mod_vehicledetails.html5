@@ -1,0 +1,122 @@
+<?php $this->extend('block_unsearchable'); ?>
+
+<?php $this->block('content'); ?>
+
+<?php \System::loadLanguageFile('tl_vehicle'); ?>
+
+<div class="listing block"<?= $this->cssID ?><?php if ($this->style): ?> style="<?= $this->style ?>"<?php endif; ?>>
+  <div class="single_vehicle_record row">
+    <?php if ($this->vehicle != '' ): ?>
+      <?= $this->vehicle ?>
+    <?php else: ?>
+    <div class="galerie col-md-7">
+      <?php          
+        if (file_exists($this->images[0]['singleSRC'])): ?>
+            <a href="<?= $this->images[0]['singleSRC'] ?>" data-lightbox="<?= $this->order_number ?>"><img src="<?= $this->images[0]['singleSRC'] ?>" alt="<?= $this->headline ?>"></a>
+        <?php else: ?>
+          <img src="//placehold.it/700x500" alt="<?= $this->headline ?>">
+        <?php endif; ?>        
+    </div>  
+    
+    <div class="shortinfo col-md-5">
+      <div class="leftSub">
+        <?php if ($this->type): ?>
+        <dl><dt class="type"><?= $GLOBALS['TL_LANG']['tl_vehicle']['type'][0] ?></dt><dd> <?= $this->type ?></dd></dl>
+        <?php endif; ?>
+        <?php if ($this->vehicle_typenumber): ?>
+        <dl><dt class="vehicle_typenumber"><?= $GLOBALS['TL_LANG']['tl_vehicle']['vehicle_number'][0] ?></dt><dd> <?= $GLOBALS['TL_LANG']['vehicle_typenumber'][$this->vehicle_typenumber] ?></dd></dl>    
+        <?php endif; ?>
+        <?php if ($this->color): ?>
+        <dl><dt class="color"><?= $GLOBALS['TL_LANG']['tl_vehicle']['color'][0] ?></dt><dd> <?= $this->color ?></dd></dl>  
+        <?php endif; ?>  
+        <?php if ($this->engine_displacement): ?>
+        <dl><dt class="engine_displacement"><?= $GLOBALS['TL_LANG']['tl_vehicle']['engine_displacement'][0] ?></dt><dd> <?= $this->engine_displacement ?> ccm</dd></dl>
+        <?php endif; ?>
+        <?php if ($this->data_output): ?>
+        <dl><dt class="data_output"><?= $GLOBALS['TL_LANG']['tl_vehicle']['data_output'][0] ?></dt><dd> <?= $this->data_output ?></dd></dl>
+        <?php endif; ?>
+        <?php if ($this->milage): ?>
+        <dl><dt class="milage"><?= $GLOBALS['TL_LANG']['tl_vehicle']['milage'][0] ?></dt><dd> <?= $this->milage ?> km</dd></dl>
+        <?php endif; ?>
+        <?php if ($this->fuel): ?>
+        <dl><dt class="fuel"><?= $GLOBALS['TL_LANG']['tl_vehicle']['fuel'][0] ?></dt><dd> <?= $this->fuel ?></dd></dl>
+        <?php endif; ?>
+        <?php if ($this->manufacturer_key_number): ?>
+        <dl><dt class="manufacturer_key_number"><?= $GLOBALS['TL_LANG']['tl_vehicle']['manufacturer_key_number'][0] ?></dt><dd> <?= $this->manufacturer_key_number ?></dd></dl>
+        <?php endif; ?>
+        <?php if ($this->type_key_number): ?>
+        <dl><dt class="type_key_number"><?= $GLOBALS['TL_LANG']['tl_vehicle']['type_key_number'][0] ?></dt><dd> <?= $this->type_key_number ?></dd></dl>
+        <?php endif; ?>
+        <?php if ($this->kw): ?>
+        <dl><dt class="kw"><?= $GLOBALS['TL_LANG']['tl_vehicle']['kw'][0] ?></dt><dd> <?= $this->kw ?> kW (<?= round((int)$this->kw*1.35962) ?> PS)</dd></dl>
+        <?php endif; ?>
+        <?php if ($this->order_number): ?>
+        <dl><dt class="number"><?= $GLOBALS['TL_LANG']['tl_vehicle']['number'][0] ?></dt><dd> <?= $this->order_number ?></dd></dl>
+        <?php endif; ?>
+    
+        </div>
+    </div>
+
+    <div class="shortinfo col-md-5">
+      <div class="preisFenster">
+        <div class="preisBlock">
+          <div class="preis">(brutto) <?= number_format($this->price, 2, ',', '.') ?> <?= $this->currency ?></div>
+          <div class="steuer">
+          <?php if(is_numeric($this->tax) == 19): ?>
+            <span class="netto">(netto) <?= number_format($this->price/('1.'.$this->tax), 2, ',', '.') ?> <?= $this->currency ?></span>
+            19% MwSt.
+          <?php else: ?>
+            differenzbesteuert nach § 25a UStG
+          <?php endif; ?></div>
+        </div>
+        <div class="links">
+            <a href="<?= $this->pdffile ?>">PDF - Download</a>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="equipment" class="col-md-12" >
+      <div class="title"><h3><?= $GLOBALS['TL_LANG']['tl_vehicle']['features'][0] ?></h3></div>
+      <p><?= $this->features ?></p>
+    </div>   
+    
+    <div class="efficiency">
+      <div class="title col-md-12"><h3>Informationen über Kraftstoffverbrauch und CO<sub>2</sub>-Emissionen</h3></div>
+      <div  class="col-md-6">
+        <?php if ($this->cubic_capacity): ?>
+        <dl><dt class="cubic_capacity"><?= $GLOBALS['TL_LANG']['tl_vehicle']['cubic_capacity'][0] ?></dt><dd> <?= $this->cubic_capacity ?> ccm</dd></dl>
+        <?php endif; ?>
+        <?php if ($this->petrol_inner): ?>
+        <dl><dt class="petrol_inner"><?= $GLOBALS['TL_LANG']['tl_vehicle']['petrol_inner'][0] ?></dt><dd> <?= $this->petrol_inner ?>  l/100 km</dd></dl>
+        <?php endif; ?>
+        <?php if ($this->petrol_outer): ?>
+        <dl><dt class="petrol_outer"><?= $GLOBALS['TL_LANG']['tl_vehicle']['petrol_outer'][0] ?></dt><dd> <?= $this->petrol_outer ?>  l/100 km</dd></dl>
+        <?php endif; ?>
+        <?php if ($this->petrol_combined): ?>
+        <dl><dt class="petrol_combined"><?= $GLOBALS['TL_LANG']['tl_vehicle']['petrol_combined'][0] ?>*</dt><dd> <?= $this->petrol_combined ?>  l/100 km</dd></dl>
+        <?php endif; ?>
+        <?php if ($this->co2_emission): ?>
+        <dl><dt class="co2_emission"><?= $GLOBALS['TL_LANG']['tl_vehicle']['co2_emission'][0] ?>*</dt><dd> <?= $this->co2_emission ?> g/km</dd></dl>
+      <?php endif; ?>
+      </div>
+      <div class="col-md-6">
+        <?php if( strlen($this->efficiency_class) ): ?>
+        {{image::files/CH_PAV/img/images_energie/<?= strtolower($this->efficiency_class) ?>.png}}
+        <?php endif; ?>
+      </div>
+    </div>
+  </div>
+  <?php endif; ?>
+  <!-- indexer::stop -->
+  <div class="back"><a href="<?= $this->referer ?>"><?= $this->back ?></a></div>
+  <!-- indexer::continue -->
+</div>
+<?php $this->showTemplateVars(); ?>
+
+<?php $this->endblock(); ?>
+
+
+
+
+

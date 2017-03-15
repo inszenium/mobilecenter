@@ -1,0 +1,65 @@
+<!-- indexer::stop -->
+<div class="<?= $this->class; ?> block"<?= $this->cssID; ?><?php if ($this->style): ?> style="<?= $this->style; ?>"<?php endif; ?>>
+
+  <?php if ($this->headline): ?>
+    <<?= $this->hl; ?>><?= $this->headline; ?></<?= $this->hl; ?>>
+  <?php endif; ?>
+
+  <form<?php if ($this->action): ?> action="<?= $this->action; ?>"<?php endif; ?> id="<?= $this->formId; ?>" method="get">
+    <div class="formbody">
+      <div class="widget">
+        <?= $this->fields['order_number']->generateLabel(); ?>
+        <?= $this->fields['order_number']->generateWithError(); ?>
+      </div>
+      <div class="widget">
+        <?= $this->fields['class']->generateLabel(); ?>
+        <?= $this->fields['class']->generateWithError(); ?>
+      </div>
+      <div class="widget">
+        <?= $this->fields['category']->generateLabel(); ?>
+        <?= $this->fields['category']->generateWithError(); ?>
+      </div>      
+      <div class="widget">
+        <?= $this->fields['make']->generateLabel(); ?>
+        <?= $this->fields['make']->generateWithError(); ?>
+      </div>    
+      <div class="widget">
+        <?= $this->fields['model']->generateLabel(); ?>
+        <?= $this->fields['model']->generateWithError(); ?>
+      </div>    
+      <div class="widget">
+        <?= $this->fields['mileage']->generateLabel(); ?>
+        <?= $this->fields['mileage']->generateWithError(); ?>
+      </div>        
+      <div class="widget">
+        <?= $this->fields['fuel']->generateLabel(); ?>
+        <?= $this->fields['fuel']->generateWithError(); ?>
+      </div> 
+      <div class="widget">
+        <?= $this->fields['vat']->generateLabel(); ?>
+        <?= $this->fields['vat']->generateWithError(); ?>
+      </div> 
+      
+      <div class="submit_container"> 
+        <input type="submit" class="submit" value="suchen">
+      </div>
+         
+      <script>
+        jQuery( document ).ready(function() {
+            jQuery('select').on('change', function(e){
+              jQuery(this).closest('form').trigger('submit');
+            });
+            jQuery(':checkbox').change(function() {
+              jQuery(this).closest('form').trigger('submit');
+            });
+        });
+      </script>
+
+    </div>
+  </form>
+
+</div>
+<!-- indexer::continue -->
+<!--
+<?php $this->showTemplateVars(); ?>
+-->

@@ -1,0 +1,18 @@
+<?php $this->extend('block_unsearchable'); ?>
+
+<?php $this->block('content'); ?>
+<div class="row">
+<div class="filter_vehicles col-md-4">
+  <?= $this->filter_vehicles ?>
+</div>
+<div class="all_vehicles col-md-8">
+  <?= $this->vehicles ?>
+</div>
+<div class="pagination col-md-8 col-md-offset-4 ">
+<?= $this->pagination ?>
+</div>
+</div>
+<?php $this->endblock(); ?>
+
+
+

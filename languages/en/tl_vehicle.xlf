@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="system/modules/mobilecenter/languages/en/tl_vehicle.php" source-language="en">
+    <body>
+	  <trans-unit id="tl_vehicle.id.0">
+        <source>Id</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.id.1">
+        <source>Please enter the Id</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.pid.0">
+        <source>Pid</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.pid.1">
+        <source>Please enter the Pid</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.sorting.0">
+        <source>Sorting</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.sorting.1">
+        <source>Please enter the Sorting</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.tstamp.0">
+        <source>Tstamp</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.tstamp.1">
+        <source>Please enter the Tstamp</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.headline.0">
+        <source>Headline</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.headline.1">
+        <source>Please enter the Headline</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.alias.0">
+        <source>Alias</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.alias.1">
+        <source>Please enter the Alias</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.order_number.0">
+        <source>Order number</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.order_number.1">
+        <source>Please enter the Order number</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.description.0">
+        <source>Description</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.description.1">
+        <source>Please enter the Description</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.class.0">
+        <source>Class</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.class.1">
+        <source>Please enter the Class</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.category.0">
+        <source>Category</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.category.1">
+        <source>Please enter the Category</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.make.0">
+        <source>Make</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.make.1">
+        <source>Please enter the Make</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.model.0">
+        <source>Model</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.model.1">
+        <source>Please enter the Model</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.model_description.0">
+        <source>Model description</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.model_description.1">
+        <source>Please enter the Model description</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.accident_damaged.0">
+        <source>Accident damaged</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.accident_damaged.1">
+        <source>Please enter the Accident damaged</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.roadworthy.0">
+        <source>Roadworthy</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.roadworthy.1">
+        <source>Please enter the Roadworthy</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.damage_and_unrepaired.0">
+        <source>Damage and unrepaired</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.damage_and_unrepaired.1">
+        <source>Please enter the Damage and unrepaired</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.price.0">
+        <source>Price</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.price.1">
+        <source>Please enter the Price</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.currency.0">
+        <source>Currency</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.currency.1">
+        <source>Please enter the Currency</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.vat.0">
+        <source>Vat</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.vat.1">
+        <source>Please enter the Vat</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.features.0">
+        <source>Features</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.features.1">
+        <source>Please enter the Features</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.exterior_color.0">
+        <source>Exterior color</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.exterior_color.1">
+        <source>Please enter the Exterior color</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.interior_color.0">
+        <source>Interior color</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.interior_color.1">
+        <source>Please enter the Interior color</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.door_count.0">
+        <source>Door count</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.door_count.1">
+        <source>Please enter the Door count</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.emission_class.0">
+        <source>Emission class</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.emission_class.1">
+        <source>Please enter the Emission class</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.emission_sticker.0">
+        <source>Emission sticker</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.emission_sticker.1">
+        <source>Please enter the Emission sticker</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.fuel.0">
+        <source>Fuel</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.fuel.1">
+        <source>Please enter the Fuel</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.gearbox.0">
+        <source>Gearbox</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.gearbox.1">
+        <source>Please enter the Gearbox</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.climatisation.0">
+        <source>Climatisation</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.climatisation.1">
+        <source>Please enter the Climatisation</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.mobile_condition.0">
+        <source>Mobile condition</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.mobile_condition.1">
+        <source>Please enter the Mobile condition</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.usage_type.0">
+        <source>Usage type</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.usage_type.1">
+        <source>Please enter the Usage type</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.interior_type.0">
+        <source>Interior type</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.interior_type.1">
+        <source>Please enter the Interior type</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.number_of_previous_owners.0">
+        <source>Number of previous owners</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.number_of_previous_owners.1">
+        <source>Please enter the Number of previous owners</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.mileage.0">
+        <source>Mileage</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.mileage.1">
+        <source>Please enter the Mileage</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.general_inspection.0">
+        <source>General inspection</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.general_inspection.1">
+        <source>Please enter the General inspection</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.first_registration.0">
+        <source>First registration</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.first_registration.1">
+        <source>Please enter the First registration</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.power.0">
+        <source>Power</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.power.1">
+        <source>Please enter the Power</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.schwacke_code.0">
+        <source>Schwacke code</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.schwacke_code.1">
+        <source>Please enter the Schwacke code</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.num_seats.0">
+        <source>Num seats</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.num_seats.1">
+        <source>Please enter the Num seats</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.cubic_capacity.0">
+        <source>Cubic capacity</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.cubic_capacity.1">
+        <source>Please enter the Cubic capacity</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.hsn.0">
+        <source>Hsn</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.hsn.1">
+        <source>Please enter the Hsn</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.tsn.0">
+        <source>Tsn</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.tsn.1">
+        <source>Please enter the Tsn</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.envkv_compliant.0">
+        <source>Envkv compliant</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.envkv_compliant.1">
+        <source>Please enter the Envkv compliant</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.energy_efficiency_class.0">
+        <source>Energy efficiency class</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.energy_efficiency_class.1">
+        <source>Please enter the Energy efficiency class</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.co2_emission.0">
+        <source>Co2 emission</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.co2_emission.1">
+        <source>Please enter the Co2 emission</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.petrol_inner.0">
+        <source>Inner</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.petrol_inner.1">
+        <source>Please enter the Inner</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.petrol_outer.0">
+        <source>Outer</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.petrol_outer.1">
+        <source>Please enter the Outer</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.petrol_combined.0">
+        <source>Combined</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.petrol_combined.1">
+        <source>Please enter the Combined</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.unit.0">
+        <source>Unit</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.unit.1">
+        <source>Please enter the Unit</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.petrol_type.0">
+        <source>Petrol type</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.petrol_type.1">
+        <source>Please enter the Petrol type</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.addImage.0">
+        <source>AddImage</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.addImage.1">
+        <source>Please enter the AddImage</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.multiSRC.0">
+        <source>MultiSRC</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.multiSRC.1">
+        <source>Please enter the MultiSRC</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.sortBy.0">
+        <source>SortBy</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.sortBy.1">
+        <source>Please enter the SortBy</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.orderSRC.0">
+        <source>OrderSRC</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.orderSRC.1">
+        <source>Please enter the OrderSRC</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.metaIgnore.0">
+        <source>MetaIgnore</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.metaIgnore.1">
+        <source>Please enter the MetaIgnore</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.cssClass.0">
+        <source>CssClass</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.cssClass.1">
+        <source>Please enter the CssClass</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.published.0">
+        <source>Published</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.published.1">
+        <source>Please enter the Published</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.start.0">
+        <source>Start</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.start.1">
+        <source>Please enter the Start</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.stop.0">
+        <source>Stop</source>
+      </trans-unit>
+	  <trans-unit id="tl_vehicle.stop.1">
+        <source>Please enter the Stop</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

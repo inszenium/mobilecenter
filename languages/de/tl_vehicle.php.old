@@ -1,0 +1,263 @@
+<?php
+/**
+ * Contao Open Source CMS
+ *
+ * Copyright (c) 2015 centerscreen GmbH
+ *
+ * @package   MobileCenter
+ * @author    Kirsten Roschanski <kirsten@kirsten-roschanski.de>
+ * @license   LGPL
+ * @copyright 2015
+ */
+ 
+$GLOBALS['TL_LANG']['tl_vehicle']['new'] = array
+(
+  'Neues Fahrzeug',
+  'Ein neues Fahrzeug anlegen'
+);
+ 
+$GLOBALS['TL_LANG']['tl_vehicle']['edit'] = array
+(
+  'Fahrzeugdaten bearbeiten',
+  'Fahrzeugdaten ID %s bearbeiten'
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['copy'] = array
+(
+  'Fahrzeugdaten duplizieren',
+  'Fahrzeugdaten ID %s duplizieren'
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['cut'] = array
+(
+  '',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['delete'] = array
+(
+  'Fahrzeugdaten löschen',
+  'Fahrzeugdaten ID %s löschen'
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['toggle'] = array
+(
+  '',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['show'] = array
+(
+  'Fahrzeugdetails',
+  'Die Details des Fahrzeugs ID %s anzeigen'
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['headline'] = array
+(
+  'Titel',
+  'Bitte geben Sie den Fahrzeug-Titel ein.'
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['alias'] = array
+(
+  'Fahrzeugalias',
+  'Der Fahrzeugalias ist eine eindeutige Referenz, die anstelle der numerischen Fahrzeug-ID aufgerufen werden kann.'
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['author'] = array
+(
+  'Autor',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['number'] = array
+(
+  'Interne Nummer',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['order_number'] = array
+(
+  'Referenznummer',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['vehicle_number'] = array
+(
+  'Fahrzeugart',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['type'] = array
+(
+  'Fahrzeugtyp',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['brand'] = array
+(
+  'Marke',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['model'] = array
+(
+  'Modell',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['kw'] = array
+(
+  'Leistung',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['milage'] = array
+(
+  'Kilometerstand',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['chassis_number'] = array
+(
+  'Fahrzeug-Identifizierungsnummer',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['color'] = array
+(
+  'Farbe',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['equipment'] = array
+(
+  'Ausstattung',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['engine_displacement'] = array
+(
+  'Hubraum',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['vehicle_typenumber'] = array
+(
+  'Fahrzeugtyp-Nr.',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['mileage_city'] = array
+(
+  'Kraftstoffverbr. innerorts',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['mileage_country'] = array
+(
+  'Kraftstoffverbr. außerorts',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['mileage_mixed'] = array
+(
+  'Kraftstoffverbr. komb.',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['emissions'] = array
+(
+  'CO2-Emission komb. ',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['data_output'] = array
+(
+  'Erstzulassung',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['manufacturer_key_number'] = array
+(
+  'HSN',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['type_key_number'] = array
+(
+  'TSN',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['commission_number'] = array
+(
+  'Auftragsnummer',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['efficiency_class'] = array
+(
+  'C02-Effizienzklasse',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['fuel'] = array
+(
+  'Kraftstoff',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['date_of_manufacture'] = array
+(
+  'Produktionsdatum',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['tax'] = array
+(
+  'Steuersatz',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['currency'] = array
+(
+  'Währung',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['price'] = array
+(
+  'Preis',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['addImage'] = array
+(
+  '',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_content']['singleSRC'] = array
+(
+  '',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_content']['alt'] = array
+(
+  '',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_content']['size'] = array
+(
+  '',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_content']['imagemargin'] = array
+(
+  '',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_content']['imageUrl'] = array
+(
+  '',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_content']['fullsize'] = array
+(
+  '',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_content']['caption'] = array
+(
+  '',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_content']['floating'] = array
+(
+  '',
+  ''
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['cssClass'] = array
+(
+  'CSS-ID/Klasse',
+  'Hier können Sie eine ID und beliebig viele Klassen eingeben.'
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['published'] = array
+(
+  'Fahrzeug veröffentlichen',
+  'Das Fahrzeug auf der Webseite anzeigen.'
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['start'] = array
+(
+  'Anzeigen ab',
+  'Den Artikel erst ab diesem Tag auf der Webseite anzeigen.'
+);
+$GLOBALS['TL_LANG']['tl_vehicle']['stop'] = array
+(
+  'Anzeigen bis',
+  'Den Artikel nur bis zu diesem Tag auf der Webseite anzeigen.'
+);

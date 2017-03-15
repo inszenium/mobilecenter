@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.1">
+  <file datatype="php" original="system/modules/mobilecenter/languages/en/default.php" source-language="en">
+    <body>
+      <trans-unit id="mobile.categories.Cabrio"> 
+		<source>Cabrio/Roadster</source>  
+        <target>Cabrio/Roadster</target>
+      </trans-unit>
+      <trans-unit id="mobile.categories.EstateCar">
+		<source>EstateCar</source>  
+        <target>Kombi</target>
+      </trans-unit>
+      <trans-unit id="mobile.categories.Limousine">
+		<source>Limousine</source>  
+        <target>Limousine</target>
+      </trans-unit>
+      <trans-unit id="mobile.categories.OffRoad">
+		<source>OffRoad</source>  
+        <target>Geländewagen/Pickup</target>
+      </trans-unit>
+      <trans-unit id="mobile.categories.SmallCar">
+		<source>SmallCar</source>  
+        <target>Kleinwagen</target>
+      </trans-unit>
+      <trans-unit id="mobile.categories.SportsCar">
+		<source>SportsCar</source>  
+        <target>Sportwagen/Coupé</target>
+      </trans-unit>
+      <trans-unit id="mobile.categories.Van">
+		<source>Van</source>  
+        <target>Van/Kleinbus</target>
+      </trans-unit>
+      <trans-unit id="mobile.categories.OtherCar">
+		<source>OtherCar</source>  
+        <target>Andere</target>
+      </trans-unit>
+      <trans-unit id="MSC.search">
+		  
+        <target>suchen</target>
+      </trans-unit>
+      <trans-unit id="MSC.emptyVehicleList">
+		  
+        <target>Keine Fahrzeuge gefunden!</target>
+      </trans-unit>
+      <trans-unit id="MSC.invalidPage">
+		  
+        <target>Kein passendes Fahrzeug für "%s" gefunden!</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.ABS">
+        <source>ABS</source>
+        <target>ABS</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.ALLOY_WHEELS">
+        <source>Alloy wheels</source>
+        <target>Leichtmetallfelgen</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.AUTOMATIC_RAIN_SENSOR">
+        <source>Rain sensor</source>
+        <target>Regensensor</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.AUXILIARY_HEATING">
+        <source>Auxiliary heating</source>
+        <target>Standheizung</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.BENDING_LIGHTS">
+        <source>Adaptive lighting</source>
+        <target>Kurvenlicht</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.BIODIESEL_SUITABLE">
+        <source>Biodiesel Suitable</source>
+        <target>Biodiesel geeignet</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.BLUETOOTH">
+        <source>Bluetooth</source>
+        <target>Bluetooth</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.CD_MULTICHANGER">
+        <source>CD Multichanger</source>
+        <target>Multi-CD-Wechsler</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.CD_PLAYER">
+        <source>CD player</source>
+        <target>CD-Spieler</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.CENTRAL_LOCKING">
+        <source>Central locking</source>
+        <target>Zentralverriegelung</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.CRUISE_CONTROL">
+        <source>Cruise control</source>
+        <target>Tempomat</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.DAYTIME_RUNNING_LIGHTS">
+        <source>Daytime running lights</source>
+        <target>Tagfahrlicht</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.DISABLED_ACCESSIBLE">
+        <source>Disabled accessible</source>
+        <target>Behindertengerecht</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.E10_ENABLED">
+        <source>E10-enabled</source>
+        <target>E10-geeignet</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.ELECTRIC_ADJUSTABLE_SEATS">
+        <source>Electric seat adjustment</source>
+        <target>Elektr. Sitzeinstellung</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.ELECTRIC_EXTERIOR_MIRRORS">
+        <source>Electric side mirror</source>
+        <target>Elektr. Seitenspiegel</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.ELECTRIC_HEATED_SEATS">
+        <source>Electric heated seats</source>
+        <target>Sitzheizung</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.ELECTRIC_WINDOWS">
+        <source>Electric windows</source>
+        <target>Elektr. Fensterheber</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.ESP">
+        <source>ESP</source>
+        <target>ESP</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.EXPORT">
+        <source>For business, ex-/import</source>
+        <target>Für Gewerbe, Ex-/Import</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.FOUR_WHEEL_DRIVE">
+        <source>Four wheel drive</source>
+        <target>Allradantrieb</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.FRONT_FOG_LIGHTS">
+        <source>Fog lamp</source>
+        <target>Nebelscheinwerfer</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.FULL_SERVICE_HISTORY">
+        <source>Full Service History</source>
+        <target>Scheckheftgepflegt</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.HANDS_FREE_PHONE_SYSTEM">
+        <source>Hands-free kit</source>
+        <target>Freisprecheinrichtung</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.HEAD_UP_DISPLAY">
+        <source>Head-up display</source>
+        <target>Head-Up Display</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.HU_AU_NEU">
+        <source>New HU</source>
+        <target>HU neu</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.HYBRID_PLUGIN">
+        <source>Plug-in hybrid</source>
+        <target>Plug-in-Hybrid</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.IMMOBILIZER">
+        <source>Immobilizer</source>
+        <target>Elektr. Wegfahrsperre</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.ISOFIX">
+        <source>Isofix (child seat anchor points)</source>
+        <target>Isofix (Kindersitzbefestigung)</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.LIGHT_SENSOR">
+        <source>Light sensor</source>
+        <target>Lichtsensor</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.METALLIC">
+        <source>Metallic</source>
+        <target>Metallic</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.MP3_INTERFACE">
+        <source>MP3 interface</source>
+        <target>MP3-Schnittstelle</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.MULTIFUNCTIONAL_WHEEL">
+        <source>Multifunction steering wheel</source>
+        <target>Multifunktionslenkrad</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.NAVIGATION_SYSTEM">
+        <source>Navigation system</source>
+        <target>Navigationssystem</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.NONSMOKER_VEHICLE">
+        <source>Non-smoker vehicle</source>
+        <target>Nichtraucher-Fahrzeug</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.ON_BOARD_COMPUTER">
+        <source>On-board computer</source>
+        <target>Bordcomputer</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.PANORAMIC_GLASS_ROOF">
+        <source>Panoramic roof</source>
+        <target>Panorama-Dach</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.PARKING_SENSORS">
+        <source>Parking sensors</source>
+        <target>Einparkhilfe</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.PARTICULATE_FILTER_DIESEL">
+        <source>Particulate filter</source>
+        <target>Partikelfilter</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.PERFORMANCE_HANDLING_SYSTEM">
+        <source>Sports suspension</source>
+        <target>Sportfahrwerk</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.POWER_ASSISTED_STEERING">
+        <source>Power Assisted Steering</source>
+        <target>Servolenkung</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.ROOF_RAILS">
+        <source>Roof rack</source>
+        <target>Dachreling</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.SKI_BAG">
+        <source>Ski bag</source>
+        <target>Skisack</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.SPORT_PACKAGE">
+        <source>Sports package</source>
+        <target>Sportpaket</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.SPORT_SEATS">
+        <source>Sport seats</source>
+        <target>Sportsitze</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.START_STOP_SYSTEM">
+        <source>Start-stop system</source>
+        <target>Start/Stopp-Automatik</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.SUNROOF">
+        <source>Sunroof</source>
+        <target>Schiebedach</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.TAXI">
+        <source>Taxi</source>
+        <target>Taxi</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.TRACTION_CONTROL_SYSTEM">
+        <source>Traction control</source>
+        <target>Traktionskontrolle</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.TRAILER_COUPLING">
+        <source>Trailer coupling</source>
+        <target>Anhängerkupplung</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.TUNER">
+        <source>Tuner/radio</source>
+        <target>Tuner/Radio</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.VEGETABLEOILFUEL_SUITABLE">
+        <source>Suitable for Vegetable Oil</source>
+        <target>Pflanzenöl geeignet</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.WARRANTY">
+        <source>Warranty</source>
+        <target>Garantie</target>
+      </trans-unit>
+      <trans-unit id="mobile.features.XENON_HEADLIGHTS">
+        <source>Xenon headlights</source>
+        <target>Xenonscheinwerfer</target>
+      </trans-unit>
+      <trans-unit id="mobile.classes.AgriculturalVehicle">
+        <source>Agricultural vehicle</source>
+        <target>Agrarfahrzeug</target>
+      </trans-unit>
+      <trans-unit id="mobile.classes.Bus">
+        <source>Coach</source>
+        <target>Bus</target>
+      </trans-unit>
+      <trans-unit id="mobile.classes.Car">
+        <source>Car</source>
+        <target>Pkw</target>
+      </trans-unit>
+      <trans-unit id="mobile.classes.ConstructionMachine">
+        <source>Construction machine</source>
+        <target>Baumaschine</target>
+      </trans-unit>
+      <trans-unit id="mobile.classes.ForkliftTruck">
+        <source>Forklift truck</source>
+        <target>Stapler</target>
+      </trans-unit>
+      <trans-unit id="mobile.classes.Motorbike">
+        <source>Motorcycle</source>
+        <target>Motorrad</target>
+      </trans-unit>
+      <trans-unit id="mobile.classes.Motorhome">
+        <source>Motorhome or Caravan</source>
+        <target>Wohnmobil oder -wagen</target>
+      </trans-unit>
+      <trans-unit id="mobile.classes.SemiTrailer">
+        <source>Semi-trailer</source>
+        <target>Auflieger</target>
+      </trans-unit>
+      <trans-unit id="mobile.classes.SemiTrailerTruck">
+        <source>Semi-trailer truck</source>
+        <target>Sattelzugmaschine (SZM)</target>
+      </trans-unit>
+      <trans-unit id="mobile.classes.Trailer">
+        <source>Trailer</source>
+        <target>Anhänger</target>
+      </trans-unit>
+      <trans-unit id="mobile.classes.TruckOver7500">
+        <source>Truck over 7.5 t</source>
+        <target>Lkw über 7,5 t</target>
+      </trans-unit>
+      <trans-unit id="mobile.classes.VanUpTo7500">
+        <source>Van or truck up to 7.5 t</source>
+        <target>Transporter oder Lkw bis 7,5 t</target>
+      </trans-unit>
+      <trans-unit id="mobile.color.BLACK">
+        <source>Black</source>
+        <target>Schwarz</target>
+      </trans-unit>
+      <trans-unit id="mobile.color.GREY">
+        <source>Grey</source>
+        <target>Grau</target>
+      </trans-unit>
+      <trans-unit id="mobile.color.BEIGE">
+        <source>Beige</source>
+        <target>Beige</target>
+      </trans-unit>
+      <trans-unit id="mobile.color.BROWN">
+        <source>Brown</source>
+        <target>Braun</target>
+      </trans-unit>
+      <trans-unit id="mobile.color.RED">
+        <source>Red</source>
+        <target>Rot</target>
+      </trans-unit>
+      <trans-unit id="mobile.color.GREEN">
+        <source>Green</source>
+        <target>Grün</target>
+      </trans-unit>
+      <trans-unit id="mobile.color.BLUE">
+        <source>Blue</source>
+        <target>Blau</target>
+      </trans-unit>
+      <trans-unit id="mobile.color.PURPLE">
+        <source>Purple</source>
+        <target>Violett</target>
+      </trans-unit>
+      <trans-unit id="mobile.color.GOLD">
+        <source>Gold</source>
+        <target>Gold</target>
+      </trans-unit>
+      <trans-unit id="mobile.color.WHITE">
+        <source>White</source>
+        <target>Weiß</target>
+      </trans-unit>
+      <trans-unit id="mobile.color.ORANGE">
+        <source>Orange</source>
+        <target>Orange</target>
+      </trans-unit>
+      <trans-unit id="mobile.color.SILVER">
+        <source>Silver</source>
+        <target>Silber</target>
+      </trans-unit>
+      <trans-unit id="mobile.color.YELLOW">
+        <source>Yellow</source>
+        <target>Gelb</target>
+      </trans-unit>
+      <trans-unit id="mobile.emissionstickers.EMISSIONSSTICKER_GREEN">
+        <source>4 (green)</source>
+        <target>4 (Grün)</target>
+      </trans-unit>
+      <trans-unit id="mobile.emissionstickers.EMISSIONSSTICKER_YELLOW">
+        <source>3 (yellow)</source>
+        <target>3 (Gelb)</target>
+      </trans-unit>
+      <trans-unit id="mobile.emissionstickers.EMISSIONSSTICKER_RED">
+        <source>2 (red)</source>
+        <target>2 (Rot)</target>
+      </trans-unit>
+      <trans-unit id="mobile.emissionstickers.EMISSIONSSTICKER_NONE">
+        <source>1 (none)</source>
+        <target>1 (Keine)</target>
+      </trans-unit>      
+      <trans-unit id="mobile.gearboxes.MANUAL_GEAR">
+        <source>Manual gearbox</source>
+        <target>Schaltgetriebe</target>
+      </trans-unit>
+      <trans-unit id="mobile.gearboxes.SEMIAUTOMATIC_GEAR">
+        <source>Semi-automatic</source>
+        <target>Halbautomatik</target>
+      </trans-unit>
+      <trans-unit id="mobile.gearboxes.AUTOMATIC_GEAR">
+        <source>Automatic transmission</source>
+        <target>Automatik</target>
+      </trans-unit>      
+      <trans-unit id="mobile.fuels.PETROL">
+        <source>Petrol</source>
+        <target>Benzin</target>
+      </trans-unit>
+      <trans-unit id="mobile.fuels.DIESEL">
+        <source>Diesel</source>
+        <target>Diesel</target>
+      </trans-unit>
+      <trans-unit id="mobile.fuels.LPG">
+        <source>LPG</source>
+        <target>Autogas (LPG)</target>
+      </trans-unit>
+      <trans-unit id="mobile.fuels.CNG">
+        <source>Natural Gas</source>
+        <target>Erdgas (CNG)</target>
+      </trans-unit>
+      <trans-unit id="mobile.fuels.GAS">
+        <source>Gas</source>
+        <target>Gas</target>
+      </trans-unit>
+      <trans-unit id="mobile.fuels.ELECTRICITY">
+        <source>Electric</source>
+        <target>Elektro</target>
+      </trans-unit>
+      <trans-unit id="mobile.fuels.HYBRID">
+        <source>Hybrid (petrol/electric)</source>
+        <target>Hybrid (Benzin/Elektro)</target>
+      </trans-unit>
+      <trans-unit id="mobile.fuels.HYDROGENIUM">
+        <source>Hydrogen</source>
+        <target>Wasserstoff</target>
+      </trans-unit>
+      <trans-unit id="mobile.fuels.ETHANOL">
+        <source>Ethanol (FFV, E85, etc.)</source>
+        <target>Ethanol (FFV, E85 etc.)</target>
+      </trans-unit>
+      <trans-unit id="mobile.fuels.HYBRID_DIESEL">
+        <source>Hybrid (diesel / electric)</source>
+        <target>Hybrid (Diesel / Elektro)</target>
+      </trans-unit>
+      <trans-unit id="mobile.fuels.HYBRID_ALL">
+        <source>Hybrid</source>
+        <target>Hybrid</target>
+      </trans-unit>
+      <trans-unit id="mobile.fuels.OTHER">
+        <source>Other</source>
+        <target>Andere</target>
+      </trans-unit>
+      <trans-unit id="mobile.climatisations.NO_CLIMATISATION">
+        <source>No climatisation</source>
+        <target>Keine Klimaanlage oder -automatik</target>
+      </trans-unit>
+      <trans-unit id="mobile.climatisations.MANUAL_CLIMATISATION">
+        <source>AA/C (man.)</source>
+        <target>Klimaanlage</target>
+      </trans-unit>
+      <trans-unit id="mobile.climatisations.AUTOMATIC_CLIMATISATION">
+        <source>Automatic air conditioning</source>
+        <target>Klimaautomatik</target>
+      </trans-unit>
+      <trans-unit id="mobile.conditions.USED">
+        <source>Used vehicle</source>
+        <target>Gebrauchtfahrzeug</target>
+      </trans-unit>
+      <trans-unit id="mobile.conditions.NEW">
+        <source>New vehicle</source>
+        <target>Neufahrzeug</target>
+      </trans-unit>
+      <trans-unit id="mobile.usagetypes.PRE_REGISTRATION">
+        <source>Pre-Registration</source>
+        <target>Tageszulassung</target>
+      </trans-unit>
+      <trans-unit id="mobile.usagetypes.EMPLOYEES_CAR">
+        <source>Employee's Car</source>
+        <target>Jahreswagen</target>
+      </trans-unit>
+      <trans-unit id="mobile.usagetypes.CLASSIC">
+        <source>Classic Vehicle</source>
+        <target>Oldtimer</target>
+      </trans-unit>
+      <trans-unit id="mobile.usagetypes.DEMONSTRATION">
+        <source>Demonstration Vehicle</source>
+        <target>Vorführfahrzeug</target>
+      </trans-unit>
+      <trans-unit id="mobile.interiorTypes.LEATHER">
+        <source>Full leather</source>
+        <target>Vollleder</target>
+      </trans-unit>
+      <trans-unit id="mobile.interiorTypes.PARTIAL_LEATHER">
+        <source>Part leather</source>
+        <target>Teilleder</target>
+      </trans-unit>
+      <trans-unit id="mobile.interiorTypes.FABRIC">
+        <source>Cloth</source>
+        <target>Stoff</target>
+      </trans-unit>
+      <trans-unit id="mobile.interiorTypes.VELOUR">
+        <source>Velour</source>
+        <target>Velours</target>
+      </trans-unit>
+      <trans-unit id="mobile.interiorTypes.ALCANTARA">
+        <source>Alcantara</source>
+        <target>Alcantara</target>
+      </trans-unit>
+      <trans-unit id="mobile.interiorTypes.OTHER_INTERIOR_TYPE">
+        <source>Other</source>
+        <target>Andere</target>
+      </trans-unit>
+      <trans-unit id="mobile.interiorColors.BLACK">
+        <source>Black</source>
+        <target>Schwarz</target>
+      </trans-unit>
+      <trans-unit id="mobile.interiorColors.GREY">
+        <source>Grey</source>
+        <target>Grau</target>
+      </trans-unit>
+      <trans-unit id="mobile.interiorColors.BEIGE">
+        <source>Beige</source>
+        <target>Beige</target>
+      </trans-unit>
+      <trans-unit id="mobile.interiorColors.BROWN">
+        <source>Brown</source>
+        <target>Braun</target>
+      </trans-unit>
+      <trans-unit id="mobile.interiorColors.OTHER_INTERIOR_COLOR">
+        <source>Other</source>
+        <target>Andere</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

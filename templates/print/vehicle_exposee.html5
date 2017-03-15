@@ -1,0 +1,161 @@
+<?php
+global $objPage;
+?>
+
+<style>
+table {  
+  font: 10px/12px courier,sans-serif;
+  color: #333;
+}
+</style>
+<h1><?= $this->headline['value'] . " " .$this->headline['value'] ?></h1>
+<table style="width:100%;page-break-inside:avoid" cellpadding="3">
+  <tr>
+    <td rowspan="12" width="50%">
+    <?php
+    $file = "http://placehold.it/700x500";       
+    if ($this->commission_number['value'] && file_exists("files/cardata/".$this->commission_number['value']."_1.jpg")): ?>
+        <?php $file = TL_PATH ."/files/cardata/".$this->commission_number['value']."_1.jpg"; ?>
+        <img src="<?= $file ?>" alt="<?= $this->headline['value'] ?>" width="700">
+    <?php else: ?>
+      <img src="<?= $file ?>" alt="<?= $this->headline['value'] ?>">
+    <?php endif; ?>
+    </td>
+    <td width="20px"></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><?= $this->type['label'] ?></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><strong><?= $this->type['value'] ?></strong></td>
+  </tr>
+  <?php if ($this->vehicle_typenumber): ?>
+  <tr>
+    <td width="20px"></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><?= $this->vehicle_typenumber['label'] ?></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><strong><?= $GLOBALS['TL_LANG']['vehicle_typenumber'][$this->vehicle_typenumber['value']] ?></strong></td>
+  </tr>
+  <?php endif; ?>
+  <?php if ($this->color): ?>
+  <tr>
+    <td width="20px"></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><?= $this->color['label'] ?></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><strong><?= $this->color['value'] ?></strong></td>
+  </tr>
+  <?php endif; ?>
+  <?php if ($this->engine_displacement): ?>
+  <tr>
+    <td width="20px"></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><?= $this->engine_displacement['label'] ?></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><strong><?= $this->engine_displacement['value'] ?> ccm</strong></td>
+  </tr>
+  <?php endif; ?>
+  <?php if ($this->data_output): ?>
+  <tr>
+    <td width="20px"></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><?= $this->data_output['label'] ?></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><strong><?= $this->data_output['value'] ?></strong></td>
+  </tr>
+  <?php endif; ?>
+  <?php if ($this->milage): ?>
+  <tr>
+    <td width="20px"></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><?= $this->milage['label'] ?></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><strong><?= $this->milage['value'] ?> km</strong></td>
+  </tr>
+  <?php endif; ?>
+  <?php if ($this->fuel): ?>
+  <tr>
+    <td width="20px"></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><?= $this->fuel['label'] ?></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><strong><?= $this->fuel['value'] ?></strong></td>
+  </tr>
+  <?php endif; ?>
+  <?php if ($this->manufacturer_key_number): ?>
+  <tr>
+    <td width="20px"></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><?= $this->manufacturer_key_number['label'] ?></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><strong><?= $this->manufacturer_key_number['value'] ?></strong></td>
+  </tr>
+  <?php endif; ?>
+  <?php if ($this->type_key_number): ?>
+  <tr>
+    <td width="20px"></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><?= $this->type_key_number['label'] ?></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><strong><?= $this->type_key_number['value'] ?></strong></td>
+  </tr>
+  <?php endif; ?>
+  <?php if ($this->kw): ?>
+  <tr>
+    <td width="20px"></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><?= $this->kw['label'] ?></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><strong><?= $this->kw['value'] ?> kW (<?= round((int)$this->kw['value']*1.35962) ?> PS)</strong></td>
+  </tr>
+  <?php endif; ?>
+  <?php if ($this->number): ?>
+  <tr>
+    <td width="20px"></td>
+    <td style="border-bottom: 2px solid #c4c4c4;"><?= $this->number['label'] ?></td>
+    <td style="border-bottom: 2px solid #c4c4c4;"><strong><?= $this->order_number['value'] ?></strong></td>
+  </tr>
+  <?php endif; ?>
+  <tr>
+    <td width="20px"></td>
+    <td style="border-bottom: 1px solid #c4c4c4;"><span style="font-size:120%;"><?=preg_replace("/\((.+)\)/", '', $this->price['label']); ?></span></td>
+    <td style="border-bottom: 1px solid #c4c4c4;text-align:right;"><span class="preis" style="font-size:85%;"    
+    >(brutto) <?= number_format($this->price['value'], 2, ',', '.') ?> <?= $this->currency['value'] ?></span><br
+    ><span class="steuer"  style="font-size:60%"><?php       
+    if(is_numeric($this->tax['value']) == 19): 
+      ?>(netto) <?= number_format($this->price['value']/('1.'.$this->tax['value']), 2, ',', '.') ?> <?= $this->currency['value'] ?><br>
+      19% MwSt.
+    <?php else: ?>
+      differenzbesteuert nach § 25a UStG
+    <?php endif; ?></span></td>
+  </tr>  
+</table>
+<br>
+<br>
+<table style="width:100%;text-align:left;page-break-inside:avoid">  
+  <tr>
+    <th style="font-weight:bold;"><?= $this->equipment['label'] ?></th>
+  </tr>
+  <tr>
+    <td style="font-size:80%;"><?= $this->equipment['value'] ?></td>
+  </tr>
+</table>
+<br>
+<br>
+<table style="width:100%; border: 1px solid #c4c4c4;page-break-inside:avoid" cellpadding="1">
+  <tr>
+    <th colspan="3" style="border-bottom: 1px dashed #c4c4c4;"><span style="font-weight:bold;"> Weitere technische Daten</span></th>
+  </tr>
+  <tr>
+    <td width="2%" rowspan="14"></td>
+    <td width="30%"></td>
+    <td width="25%"></td>
+    <td width="45%"></td>
+  </tr>
+  <tr>
+    <td><?= $this->seats['label'] ?></td>
+    <td><strong><?= $this->seats['value'] ?></strong></td>
+    <td rowspan="6" width="45%" style="padding: 15px;"><?php if($this->efficiency_class['value']): 
+    $file = TL_PATH ."/files/PAV_Daten/img/images_energie/" . strtolower($this->efficiency_class['value']) .".png";   
+    ?><img src="<?= $file ?>" alt="<?= $this->efficiency_class['label'] . ": " . $this->efficiency_class['value'] ?>" ><?php endif; ?></td>
+  </tr> 
+  <tr>
+    <td><?= $this->doors['label'] ?></td>
+    <td><strong><?= $this->doors['value'] ?></strong></td>
+  </tr>   
+  <tr>
+    <td><?= $this->mileage_city['label'] ?> *</td>
+    <td><strong><?= $this->mileage_city['value'] ?> l/100 km</strong></td>
+  </tr>   
+  <tr>
+    <td><?= $this->mileage_country['label'] ?></td>
+    <td><strong><?= $this->mileage_country['value'] ?> l/100 km</strong></td>
+  </tr>    
+  <tr>
+    <td><?= $this->mileage_mixed['label'] ?></td>
+    <td><strong><?= $this->mileage_mixed['value'] ?> l/100 km</strong></td>
+  </tr>     
+  <tr>
+    <td><?= $this->emissions['label'] ?> *</td>
+    <td><strong><?= $this->emissions['value'] ?> g/km</strong></td>
+  </tr>     
+</table>
