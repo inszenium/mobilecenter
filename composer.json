@@ -16,7 +16,7 @@
     "extra":{
         "contao": {
             "sources":{
-                "*": "system/modules/mobilecenter"
+                "": "system/modules/mobilecenter"
             }
         }
     },
